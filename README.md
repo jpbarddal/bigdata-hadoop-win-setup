@@ -11,11 +11,11 @@ Definir o path do `HADOOP_HOME` como uma variável de ambiente. Isto é:
 > HADOOP_HOME=C:\\hadoop-2.7.1
 
 Concatenar ao `PATH` o `HADOOP_HOME`, assim como a sua pasta bin. Isto é:
-> HADOOP\_HOME
+> %HADOOP\_HOME%
 
 e
 
-> HADOOP\_HOME\\bin
+> %HADOOP\_HOME%\\bin
 
 <!--Opção 1. Definir essa variável de ambiente no sistema operacional. [Esse link](https://www.youtube.com/watch?v=uGiMRWuwGng) pode auxiliar.
 
